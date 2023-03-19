@@ -1,0 +1,71 @@
+/*
+Author: Mackenzie Bishop
+Date: 3/19/2023
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body and images */
+body {
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for header */
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+}
+h1 {
+    float: left;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Style rules for navigation areas */
+
+/* Style links inside navigation bar */
+.topnav-right a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change link color on hover */
+.topnav-right a:hover {
+    background-color: gainsboro;
+    color: red;
+}
+
+/* Add color to active/current link */
+.topnav-right a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Right-align top navigation */
+.topnav-right {
+    float: right
+}
+
+/* Style for logo in navigation bar */
+.topnav-left {
+    float: left;
+}
+
+/* Style rules for main content */
+
+/* Style rules for footer content */
