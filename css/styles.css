@@ -17,7 +17,7 @@ body {
 
 img {
     max-width: 100%;
-    display: block;
+    display:block;
 }
 
 /* Style rule for header */
@@ -29,15 +29,20 @@ img {
 h1 {
     float: left;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
+}
+
+h2 {
+    float: none;
+    text-align: center;
+    font-size: 30px;
 }
 
 /* Style rules for navigation areas */
-
 /* Style links inside navigation bar */
 .topnav-right a {
     float: left;
-    color: black;
+    color: #2874A6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,13 +52,7 @@ h1 {
 /* Change link color on hover */
 .topnav-right a:hover {
     background-color: gainsboro;
-    color: red;
-}
-
-/* Add color to active/current link */
-.topnav-right a.active {
-    background-color: #04AA6D;
-    color: white;
+    color: #F5B041;
 }
 
 /* Right-align top navigation */
@@ -67,5 +66,41 @@ h1 {
 }
 
 /* Style rules for main content */
+/* Style rules for left sidebar */
+.sidenav-left {
+    height: 450px;
+    width: 200px;
+    float: left;
+    text-align: center;
+    background-color: #2874A6;
+    color: white;
+}
+
+/* Style rules for right sidebar */
+.sidenav-right {
+    height: 450px;
+    width: 200px;
+    float: right;
+    text-align: center;
+    background-color: #2874A6;
+    color: white;
+}
+
+/* Style rules for main body text */
+.main-body {
+    padding: 0 1em;
+    font-size: 25px;
+}
 
 /* Style rules for footer content */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: black;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: black;
+    text-decoration: none;
+}
