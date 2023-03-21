@@ -109,6 +109,19 @@ main {
     font-size: 25px;
 }
 
+contact {
+    text-align: center;
+}
+
+contact a {
+    color: #2874A6;
+    text-decoration: none;
+}
+
+.map {
+    border: 8px solid black;
+}
+
 /* Style rules for footer content */
 footer p {
     font-size: 0.75em;
